@@ -1,18 +1,16 @@
 import mongoose from 'mongoose';
 import { logger } from '../utils/logger';
 
-// Cache the connection across serverless function invocations
+// Cache connection across serverless function invocations
 let isConnected = false;
 
 export const connectDB = async (): Promise<void> => {
-  // Reuse existing connection if already established
   if (isConnected) return;
 
   const mongoUri = process.env.MONGODB_URI;
 
   if (!mongoUri) {
-    logger.error('MONGODB_URI is not defined in environment variables');
-    process.exit(1);
+    throw new Error('MONGODB_URI is not defined in environment variables');
   }
 
   try {
@@ -21,7 +19,7 @@ export const connectDB = async (): Promise<void> => {
     logger.info(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
     logger.error('MongoDB connection error:', error);
-    process.exit(1);
+    throw error;
   }
 };
 
