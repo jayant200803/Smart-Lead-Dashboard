@@ -86,43 +86,53 @@ User opens the app
 > **To add screenshots:** Run the app locally, take screenshots of each page/feature listed below, and save them in a `screenshots/` folder in the project root with the exact filenames shown.
 
 ### 1. Login Page
-![Login Page](screenshots/01-login.png)
+![Login Page](<img width="614" height="469" alt="image" src="https://github.com/user-attachments/assets/7d20bede-881a-4cbb-8911-78ff00845606" />
+)
 > *The login screen with animated background orbs and demo credentials box.*
 
 ### 2. Register Page
-![Register Page](screenshots/02-register.png)
+![Register Page](<img width="647" height="466" alt="image" src="https://github.com/user-attachments/assets/52b10331-1734-4fb0-bed3-0eefe8c3cf28" />
+)
 > *Registration form with name, email, password, and role selection.*
 
 ### 3. Dashboard — Overview
-![Dashboard](screenshots/03-dashboard.png)
+![Dashboard](<img width="959" height="456" alt="image" src="https://github.com/user-attachments/assets/df5c4109-5fd4-4b4c-b8f9-3f0d90a87ba1" />
+)
 > *Stat cards showing Total, New, Contacted, Qualified, and Lost leads.*
 
 ### 4. Dashboard — Pipeline Distribution
-![Pipeline](screenshots/04-pipeline.png)
+![Pipeline](<img width="959" height="469" alt="image" src="https://github.com/user-attachments/assets/7d640077-bdbe-461a-8a1c-d91478f0dc2b" />
+)
 > *Segmented bar chart + ring/donut charts for each lead status.*
 
 ### 5. Leads Table
-![Leads Table](screenshots/05-leads-table.png)
+![Leads Table](<img width="958" height="474" alt="image" src="https://github.com/user-attachments/assets/aef88268-04eb-4498-9e9f-e8beaa62aa58" />
+)
 > *Full leads list with status badges, source badges, action buttons.*
 
 ### 6. Leads Table — Filters Active
-![Filters](screenshots/06-filters.png)
+![Filters](<img width="959" height="439" alt="image" src="https://github.com/user-attachments/assets/89c5392b-ad5a-445f-8a5b-8a43633f73cd" />
+)
 > *Filter bar with status/source dropdowns and search input active.*
 
 ### 7. Create New Lead
-![Create Lead](screenshots/07-create-lead.png)
+![Create Lead](<img width="959" height="470" alt="image" src="https://github.com/user-attachments/assets/588eb2d9-c1ef-459e-9025-5489be8c1127" />
+)
 > *Modal form with name, email, status, source, and notes fields.*
 
 ### 8. View Lead Details
-![Lead Detail](screenshots/08-lead-detail.png)
+![Lead Detail](<img width="850" height="474" alt="image" src="https://github.com/user-attachments/assets/09cb7c4c-554b-4f0f-a49f-fc7fd31ab2c5" />
+)
 > *Detail modal showing all lead info with created/updated timestamps.*
 
 ### 9. Edit Lead
-![Edit Lead](screenshots/09-edit-lead.png)
+![Edit Lead](<img width="604" height="474" alt="image" src="https://github.com/user-attachments/assets/81167c42-da25-4ff5-bb39-d3d7b8848036" />
+)
 > *Pre-filled edit form for updating an existing lead.*
 
 ### 10. Delete Confirmation
-![Delete](screenshots/10-delete-confirm.png)
+![Delete](<img width="656" height="453" alt="image" src="https://github.com/user-attachments/assets/b3554078-ced4-4e79-8ce8-e9edb131b340" />
+)
 > *Confirmation dialog before permanently deleting a lead.*
 
 ---
