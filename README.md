@@ -3,6 +3,22 @@
 > A full-stack **Lead Management System** built as part of a Full-Stack Developer Internship Assignment.
 > Built with the **MERN stack** (MongoDB, Express, React, Node.js) — **100% TypeScript**, no plain JavaScript.
 
+## Live Demo
+
+| | URL |
+|---|---|
+| **Live App** | https://smart-lead-dashboard-1-qvvp.onrender.com |
+| **Backend API** | https://smart-lead-dashboard-lv36.onrender.com |
+
+**Demo Credentials:**
+
+| Role | Email | Password |
+|---|---|---|
+| Admin | admin@smartleads.com | Admin@123 |
+| Sales User | sales@smartleads.com | Sales@123 |
+
+> **Note:** Render's free tier spins down after 15 mins of inactivity. The first load after inactivity takes ~30 seconds to wake up. That's normal on the free plan.
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-100%25-3178C6)
 ![React](https://img.shields.io/badge/React-18-61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933)
