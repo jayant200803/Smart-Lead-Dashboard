@@ -40,7 +40,7 @@ export const errorHandler = (
   }
 
   // Mongoose duplicate key error
-  if (err.name === 'MongoServerError' && (err as NodeJS.ErrnoException).code === 11000) {
+  if (err.name === 'MongoServerError' && (err as Error & { code?: number }).code === 11000) {
     res.status(409).json({
       success: false,
       message: 'A record with this information already exists.',
